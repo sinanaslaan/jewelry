@@ -1,0 +1,38 @@
+.header {
+    padding: 25px;
+
+    &-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-logo {
+            font-family: "Lato";
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 43px;
+            text-transform: uppercase;
+            color: #0d5eba;
+        }
+        &-menu {
+            display: flex;
+            align-items: center;
+        }
+        &-item {
+            padding-right: 63px;
+
+            a {
+                font-family: "Lato";
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 1.48872e-8px;
+                color: #343434;
+            }
+
+            &:last-child {
+                padding-right: 50px;
+            }
+        }
+    }
+}

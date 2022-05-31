@@ -1,0 +1,6 @@
+.showcase-inner-picture img {
+  width: 100%;
+  height: calc(100vh - 97px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}

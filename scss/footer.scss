@@ -1,0 +1,117 @@
+.footer {
+    background-color: #b8e0ef;
+
+    &-subs {
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        padding-bottom: 57px;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            height: 401px;
+        }
+
+        &-right {
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 401px;
+
+            &-content {
+                width: 75%;
+                padding-bottom: 35px;
+                h3 {
+                    font-family: "Lato";
+                    font-weight: 700;
+                    font-size: 35px;
+                    line-height: 42px;
+                    text-align: center;
+                    letter-spacing: 3.25657e-8px;
+                    text-transform: uppercase;
+                    color: #002d69;
+                }
+
+                p {
+                    padding-top: 10px;
+                    font-family: "Open Sans";
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;
+                    letter-spacing: 1.48872e-8px;
+                    color: #343434;
+                }
+            }
+        }
+    }
+
+    &-center {
+        border-bottom: 2px solid rgba(146, 159, 168, 0.35);
+        margin-bottom: 35px;
+        
+        &-nav {
+            display: flex;
+            justify-content: flex-start;
+            gap: 123px;
+        }
+
+        h3 {
+            font-family: "Lato";
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 25px;
+            letter-spacing: 1.95394e-8px;
+            color: #343434;
+            padding-bottom: 24px;
+        }
+
+        &-list {
+            list-style: none;
+            padding-bottom: 40px;
+        }
+
+        &-link {
+            font-family: "Lato";
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: 1.48872e-8px;
+            color: #53585f;
+        }
+    }
+
+    &-bottom {
+        padding-bottom: 41px;
+
+        &-left {
+            font-family: "Lato";
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: 1.48872e-8px;
+            color: #53585f;
+        }
+
+        &-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &-link {
+            padding-right: 35px;
+
+            &:last-child {
+                padding-right: 0px;
+            }
+        }
+    }
+}

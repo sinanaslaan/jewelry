@@ -1,0 +1,43 @@
+.product-second {
+    padding-top: 50px;
+    padding-bottom: 111px;
+
+    &-title {
+        padding-bottom: 51px;
+        font-family: "Lato";
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 43px;
+        letter-spacing: 3.90788e-8px;
+        text-transform: uppercase;
+        color: #002d69;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 42px;
+        padding-bottom: 51px;
+
+        img {
+            width: 100%;
+            height: 393px;
+            object-fit: cover;
+        }
+        figcaption {
+            padding-top: 25px;
+            font-family: "Lato";
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            letter-spacing: 3.90788e-8px;
+            text-transform: uppercase;
+            color: #002d69;
+        }
+    }
+    &-button {
+        display: flex;
+        justify-content: center;
+    }
+}

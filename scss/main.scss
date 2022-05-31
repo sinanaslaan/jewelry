@@ -1,0 +1,30 @@
+@import "normalize";
+@import "header";
+@import "showcase";
+@import "product";
+@import "button";
+@import "half-item";
+@import "product-second";
+@import "customer";
+@import "footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1260px;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}

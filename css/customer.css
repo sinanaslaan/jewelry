@@ -1,0 +1,52 @@
+.customer {
+  padding-bottom: 74px;
+}
+
+.customer h2 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 3.90788e-8px;
+  text-transform: uppercase;
+  color: #002d69;
+  margin-bottom: 45px;
+}
+
+.customer-grid {
+  grid-gap: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.customer-item {
+  border: 1px solid #dadada;
+  background: #ffffff;
+  padding: 17px;
+}
+
+.customer-item-text {
+  padding-top: 20px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.48872e-8px;
+  color: #343434;
+}
+
+.customer-item-title {
+  padding-top: 23px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.48872e-8px;
+  color: #000000;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+.product {
+    padding-top: 50px;
+    padding-bottom: 66px;
+
+    h2 {
+        padding-bottom: 50px;
+        font-family: "Lato";
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 43px;
+        letter-spacing: 3.90788e-8px;
+        text-transform: uppercase;
+        color: #002d69;
+    }
+
+    &-wrapper {
+        display: flex;
+        // Burada display: grid mantığını da kullanabiliriz. Bunun için 5 e bölmemiz gerekiyor. Fakat item classından width ibaresini kaldırmamız gerekiyor. display grid şöyle yazılır;
+        // display: grid; 
+        // grid-template-columns: repeat(5, 1fr); Burada kaça böleceksek 5 yerine onu yazıyoruz.
+        gap: 30px;
+
+        img {
+            margin-bottom: 20px;
+            width: 100%;
+            height: 223px;
+            object-fit: cover;
+        }
+
+        &-item {
+            width: 20%;
+        }
+
+        &-description {
+            font-family: "Lato";
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 3.90788e-8px;
+            text-transform: uppercase;
+            color: #002d69;
+        }
+    }
+}

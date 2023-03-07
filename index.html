@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:ital@0;1&display=swap');
     </style>
@@ -46,7 +47,16 @@
         <section class="showcase">
             <div class="showcase-inner">
                 <picture class="showcase-inner-picture">
-                    <img src="/img/banner.png" alt="Banner">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="/img/kk.jpg" alt="Banner"></div>
+                            <div class="swiper-slide"><img src="/img/ince.jpg" alt="Banner"></div>
+                            <div class="swiper-slide"><img src="/img/meral.jpg" alt="Banner"></div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
                 </picture>
             </div>
         </section>
@@ -252,26 +262,27 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="footer-bottom-nav">
-                <h4 class="footer-bottom-left">© Blue Diamond Jewelry™ 2021</h4>
-                
-                <figure class="footer-bottom-icon">
-                    <a class="footer-bottom-link" href="#">
-                        <img src="/img/facebook.png" alt="facebook">
-                    </a>
-                    <a class="footer-bottom-link" href="#">
-                        <img src="/img/instagram.png" alt="instagram">
-                    </a>
-                    <a class="footer-bottom-link" href="#">
-                        <img src="/img/pinterest.png" alt="pinterest">
-                    </a>
-                    <a class="footer-bottom-link" href="#">
-                        <img src="/img/yelp.png" alt="yelp">
-                    </a>
-                </figure>
-            </div>
+                    <h4 class="footer-bottom-left">Designed by Sinan Aslan</h4>
+
+                    <figure class="footer-bottom-icon">
+                        <a class="footer-bottom-link" href="#">
+                            <img src="/img/facebook.png" alt="facebook">
+                        </a>
+                        <a class="footer-bottom-link" href="#">
+                            <img src="/img/instagram.png" alt="instagram">
+                        </a>
+                        <a class="footer-bottom-link" href="#">
+                            <img src="/img/pinterest.png" alt="pinterest">
+                        </a>
+                        <a class="footer-bottom-link" href="#">
+                            <img src="/img/yelp.png" alt="yelp">
+                        </a>
+                    </figure>
+                </div>
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
-
 </html>

@@ -341,7 +341,7 @@ template {
 }
 
 .header {
-  padding: 25px;
+  padding: 35px;
 }
 
 .header-navbar {
@@ -393,7 +393,7 @@ template {
 
 .showcase-inner-picture img {
   width: 100%;
-  height: calc(100vh - 97px);
+  height: calc(100vh - 120px);
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -486,13 +486,13 @@ template {
   left: 0px;
   position: absolute;
   height: 100%;
-  width: 45%;
+  width: 44%;
   z-index: -1;
 }
 
 .half-item-left {
   height: 100%;
-  width: 45%;
+  width: 44%;
   padding-right: 20px;
 }
 
@@ -536,7 +536,7 @@ template {
 }
 
 .half-item-right {
-  width: 55%;
+  width: 56%;
   height: 100%;
   position: absolute;
   right: 0px;
